@@ -7,13 +7,13 @@
 // ch55x board
 
 import time
-import uart
+import uart0
 import adc_fn as adc
 
-uart.setup(9600)
+uart0.setup(9600)
 
 for {
 	analog := adc.read(adc.ch0)
-	uart.println('ADC channel 0: ${analog}')
+	uart0.print('ADC channel 0: ${analog}')
 	time.sleep_ms(1000)
 }
