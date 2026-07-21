@@ -1,5 +1,8 @@
 // Project name: Logic inverter
-// Author: Fernando M. Santa
+// Author: 
+//	- Fernando M. Santa
+//	- Katalina Guzman
+//	- Paola Carreño
 // Date: 2024-2026
 // ch55x inverter example
 
