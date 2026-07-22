@@ -55,13 +55,13 @@
 	// adc module
 	"snippet.aixt.adc.read": {
 		"prefix": "rda",
-		"body": "adc.read(adc.${1|ch0,ch1,ch2,ch3,ch4,ch5,ch6,ch7|})",
+		"body": "adc.read(adc.${1|ch0,ch1,ch2,ch3|})",
 		"description": "ADC reading function"
 	},
 	// pwm module
 	"snippet.aixt.pwm.write": {
 		"prefix": "wrpw",
-		"body": "pwm.write(pwm.${1|d3,d5,d6,d9,d10,d11|}, ${2:duty})",
+		"body": "pwm.write(pwm.${1|ch1_1,ch1_2,ch2_1,ch2_2|}, ${2:duty})",
 		"description": "PWM writing function"
 	},
 	// uart module
